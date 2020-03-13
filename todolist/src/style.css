@@ -17,6 +17,18 @@ body {
 	font-family: 'Roboto',sans-serif;
 }
 
+a, a:visited{
+	color:yellowgreen;
+}
+
+aside{
+	width: calc(100% - 430px);
+}
+
+aside p{
+	text-align: justify;
+}
+
 main {
 	background-color: #9c4dcc;
 	padding: 20px;
@@ -63,11 +75,17 @@ td:nth-child(1){
 	width: 24px;
 }
 
+td:nth-child(3){
+	width: 72px;
+	font-size: 12px;
+	text-align: center;
+}
+
 td:nth-child(2){
 	cursor: default;
 }
 
-td:nth-child(3){
+td:nth-child(4){
 	width: 36px;
 }
 
